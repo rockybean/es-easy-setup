@@ -8,6 +8,7 @@
 
 - name: Prepare in advance
   hosts: all
+  become: yes
   gather_facts: false
   roles:
     - advance
